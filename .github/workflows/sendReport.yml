@@ -2,7 +2,7 @@ name: Daily Jira Email Report
 
 on:
   schedule:
-    - cron: "0 17 * * *"  # Runs every day at 5 PM UTC
+    - cron: "30 11 * * *"  # Runs every day at 5 PM IST
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
